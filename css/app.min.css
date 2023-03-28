@@ -9282,7 +9282,7 @@ select.form-control {
     color: #0160a2!important
 }
 .bg-green {
-    background-color: #0063c0!important
+    background-color: #139235!important
 }
 .text-green {
     color: #32c787!important
@@ -13654,7 +13654,7 @@ ul.jqtree-tree ul.jqtree_common {
 	padding-top: 0px;
 }
 [data-ma-theme=green] .header, [data-ma-theme=green] .login__block__btn, [data-ma-theme=green] .login__block__header, [data-ma-theme=green] .top-menu {
-    background: #0063c0;
+    background: #139235;
     background-attachment: unset;
     background-size: cover;
     background-repeat: repeat-x;
@@ -15061,7 +15061,7 @@ input:invalid {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: #0063c0 solid 8px;
+    border-right: #139235 solid 8px;
     letter-spacing: 1px;
     white-space: nowrap;
 
