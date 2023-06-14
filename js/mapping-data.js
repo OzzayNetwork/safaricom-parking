@@ -118,7 +118,8 @@
         //the map options
         var options={
             zoom: 15,
-            center: { lat:  -4.063014463435608, lng: 39.67852061489246 }
+            center: { lat:  0.04880879027990505, lng: 37.648756715406265 }
+             
         }
        
 
@@ -224,7 +225,7 @@
          //street coodinates
          addMarker({
              
-            coords:{lat:-4.059103554533069, lng:39.67201520214267},
+            coords:{lat:0.0521935837407032, lng:37.645602596596845},
             iconImage:street_parking,
             content:'<p class="d-none">street|unique identifer</p><h6>Tom Mboya Street</h6> <P><strong>20 parking slots available</strong> Out of <strong>27 parking slots</strong></p>'
         });
@@ -232,7 +233,7 @@
         //compliant car
         addMarker({
              
-            coords:{lat:-4.06608524582244, lng:39.671392846268816},
+            coords:{lat:0.05323363845064202, lng:37.64156309466698},
             iconImage:compliantCar,
             content:'<p class="d-none">car|plate num</p><h6 class="text-uppercase d-flex align-items-center"><span class="active-agent mr-2"></span>KAT 211Z<span></h6>'
         });
@@ -240,7 +241,7 @@
         //inactive agent
         addMarker({
              
-            coords:{lat: -4.056237372296695, lng:39.6680136132523},
+            coords:{lat: 0.05075505223276079, lng:37.64680132337742},
             iconImage:inactiveAgent,
             content:'<p class="d-none">agent|plate num</p><h6 class="text-capitalize d-flex align-items-center"><span class="offline-agent mr-2"></span> <span>Alex Wanjala <small><strong>(INACTIVE)</strong></small></span></h6> <p class="pb-0 mb-0">Last seen at <strong>Tom Mboya Street</strong> at 2:06 PM </strong></p><p>Most recent activity: <strong>Queried Car plate Number KBW 2589T at 11:41PM</strong><div class="listview text-align-left text-capitalize pl-0">  <div class="listview__header text-align-left text-capitalize text-left"><strong>23MB data (70%)</strong> Consumed in the <strong>last 13 Days</strong></div> <div class="progress"> <div class="progress-bar progress-bar-warning" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> </div></div></p> '
         });
@@ -248,7 +249,7 @@
         //inactive agent
         addMarker({
              
-            coords:{lat:-4.048433848802438, lng: 39.663098987240026},
+            coords:{lat:0.05126579550641285,lng:37.64457263067017},
             iconImage:inactiveAgent,
             content:'<p class="d-none">agent|agent num</p><h6 class="text-capitalize d-flex align-items-center"><span class="offline-agent mr-2"></span> <span>Alex Wanjala <small><strong>(INACTIVE)</strong></small></span></h6> <p class="pb-0 mb-0">Last seen at <strong>Tom Mboya Street</strong> at 2:06 PM </strong></p><p>Most recent activity: <strong>Queried Car plate Number KBW 2589T at 11:41PM</strong></p> <div class="listview text-align-left text-capitalize pl-0">  <div class="listview__header text-align-left text-capitalize text-left"><strong>2MB data (25%)</strong> Consumed in the <strong>last 21 Days</strong></div> <div class="progress"> <div class="progress-bar progress-bar-success" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div> </div></div>'
         });
@@ -256,7 +257,7 @@
          //active agent
          addMarker({
              
-            coords:{lat: -4.044287672151236, lng:39.65734266453219},
+            coords:{lat:0.04954858970658188, lng:37.648677883916676},
             iconImage:activeAgent,
             content:'<p class="d-none">agent|plate num</p><h6 class="text-capitalize d-flex align-items-center"><span class="offline-agent mr-2"></span> <span>Alex Wanjala <small><strong>(INACTIVE)</strong></small></span></h6> <p class="pb-0 mb-0">Last seen at <strong>Tom Mboya Street</strong> at 2:06 PM </strong></p><p>Most recent activity: <strong>Queried Car plate Number KBW 2589T at 11:41PM</strong><div class="listview text-align-left text-capitalize pl-0">  <div class="listview__header text-align-left text-capitalize text-left"><strong>23MB data (70%)</strong> Consumed in the <strong>last 13 Days</strong></div> <div class="progress"> <div class="progress-bar progress-bar-warning" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> </div></div></p> '
         });
@@ -272,7 +273,7 @@
         //to unclamp car
         addMarker({
              
-            coords:{lat:-4.03778407435106, lng: 39.653837779766604},
+            coords:{lat:0.053066078725338944, lng: 37.64489322069163},
             iconImage:toUnClamp,
             content:`<p class="d-none">car|plate num</p>
             <h6 class="text-uppercase d-flex align-items-center">
@@ -285,7 +286,7 @@
 
         addMarker({
              
-            coords:{lat: -4.085401128065626,  lng: 39.65629124083884},
+            coords:{lat: 0.05283150990213332,  lng: 37.64673367957826},
             iconImage:warning,
             content:`<p class="d-none">incident|identifiret</p>
             <img class="mb-3" src="demo/img/widgets/photo-1564993719576-7b00be6317cd.jpg" alt=""> 
@@ -297,7 +298,7 @@
          //clamped
          addMarker({
              
-            coords:{lat: -4.085900010697609, lng:39.65631396639621},
+            coords:{lat: 0.05129779750133173, lng:37.647004334807505},
             iconImage:clamped,
             content:'<p class="d-none">car|plate num</p><h6  class="text-uppercase d-flex align-items-center"><span class="clamped-car mr-2"></span><span>KBY 252P</span></h6>'
         });
@@ -305,7 +306,8 @@
         //city hall
         addMarker({
              
-            coords:{lat: -4.062277813619392, lng: 39.68068912130745},
+             
+            coords:{lat: 0.048861891582731604, lng: 37.64898012265378},
             iconImage:hall_icon,
             content:'<p class="d-none">collectionPoint|identifier</p><h4>city_hall</h4><P><strong>KES 5,230,600</strong> already collected</p>',
             
@@ -314,7 +316,8 @@
         //sunken
         addMarker({
              
-            coords:{lat:-4.0333482937195075,lng:39.61299461489655},
+             
+            coords:{lat:0.04670227858575719,lng:37.65383479409325},
             iconImage:offStreet,
             content:'<p class="d-none">offstreetParking|identifier</p><h6>Sunken (Offstereet Parking)</h6> <P><strong>KES 5,230,600</strong> already collected</p>'
         });
@@ -322,7 +325,7 @@
          //buss park
          addMarker({
              
-            coords:{lat:-4.010207018331896,lng:39.58107043452076},
+            coords:{lat:0.04859747516078159,lng:37.649904689298396},
             iconImage:bus,
             content: '<p class="d-none">offstreetParking|identifier</p><h6>Bus Park (Offstreet Parking)</h6> <P><strong>KES 3,256,230</strong> already collected</p>'
         });
@@ -331,7 +334,7 @@
         addMarker({
              
             
-            coords:{lat: -4.008847547291754,lng:39.5994329466005},
+            coords:{lat: 0.04610786667066261,lng:37.65117145116026},
             iconImage:servicePoint,
             content: '<p class="d-none">collectionPoint|identifier</p><h6>RevenueSure Agent</h6> <P><strong>KES 5,230,600</strong> already collected</p>'
         });
